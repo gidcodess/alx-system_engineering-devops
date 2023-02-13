@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -not -name "-" | WC -I
+find . -type d ! -path . | wc -I
